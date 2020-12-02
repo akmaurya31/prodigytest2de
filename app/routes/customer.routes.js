@@ -15,4 +15,5 @@ module.exports = app => {
   app.post("/mandate",customers.mandate);//prodigy_final2
     app.get("/getUserDetails",customers.getUserDetails);//prodigy_final2
   app.post("/regularSIP",customers.SIP);//prodigy_final2
+  app.post("/purchase_sip",customers.purchase_sip);//prodigy_final2
 };
